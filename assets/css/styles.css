@@ -390,3 +390,66 @@ a {
 .popular .course-item .btn:hover {
   background: var(--primary-color);
 }
+
+/* Feedback */
+.feedback {
+  padding: 96px 0;
+  background: #2e2100;
+}
+
+.feedback-item {
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback-item .title {
+  margin-top: 18px;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4167;
+  color: #f7f7f7;
+}
+
+.feedback-item .desc {
+  color: #bfbcb2;
+  margin: 4px 0 0 0;
+}
+
+.feedback-item .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+}
+
+.feedback-item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.feedback-item .dot.active {
+  background-color: var(--primary-color);
+  cursor: default;
+}
+
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback-item blockquote {
+  margin-left: 30px;
+  font-size: 1.625rem;
+  font-style: italic;
+  line-height: 1.54;
+  color: #fff;
+}
