@@ -630,3 +630,75 @@ a {
   justify-content: center;
   margin-top: 38px;
 }
+
+/* Footer */
+.footer {
+  padding-top: 96px;
+  background: #2e2100;
+}
+
+.footer .row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+.footer .column {
+  width: 21.6%;
+}
+
+.footer .column:first-child {
+  width: 35%;
+}
+
+.footer .desc {
+  max-width: 267px;
+  margin: 18px 0;
+  font-size: 0.875rem;
+  line-height: 1.857;
+  color: #bfbcb2;
+}
+
+.footer .socials {
+  display: flex;
+  gap: 18px;
+}
+
+.footer .title {
+  display: inline-block;
+  padding: 0 48px 14px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+  color: #fff;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .list {
+  margin-top: 28px;
+}
+
+.footer .list .item + .item {
+  margin-top: 12px;
+}
+
+.footer .list .item a {
+  font-size: 0.875rem;
+  line-height: 1.857;
+  color: #bfbcb2;
+}
+
+.footer .list .item a strong {
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer .copyright {
+  padding: 28px 0;
+}
+
+.footer .copyright p {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  color: #807d74;
+  text-align: center;
+}
