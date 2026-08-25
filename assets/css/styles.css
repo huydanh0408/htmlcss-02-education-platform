@@ -469,6 +469,7 @@ a {
 
 .feature .body {
   display: flex;
+  justify-content: space-between;
 }
 
 .feature .images {
@@ -493,7 +494,6 @@ a {
   align-items: flex-start;
   justify-content: center;
   width: 41%;
-  margin-left: auto;
 }
 
 .feature .desc {
@@ -505,4 +505,25 @@ a {
 .feature .btn {
   margin-top: 32px;
   min-width: 137px;
+}
+
+.feature2 {
+  margin-top: 70px;
+}
+
+.feature2 .body {
+  flex-direction: row-reverse;
+}
+
+.feature2 .content {
+  width: 49%;
+}
+
+.feature2 .desc {
+  margin-right: 0;
+}
+
+.feature2 .img {
+  width: 470px;
+  height: 440px;
 }
